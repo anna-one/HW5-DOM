@@ -1,0 +1,43 @@
+body{
+    
+    font-family: sans-serif;
+    background: rgb(107, 160, 107);
+
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    margin-top: 325px;
+    background-color: #fff;
+    padding: 50px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-name{
+    padding: 14px;
+    min-width: 300px;
+
+}
+
+.form-password{
+    padding: 14px;
+    min-width: 300px;
+
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.form-button{
+    padding: 14px;
+    min-width: 330px;
+
+    background-color: rgb(28, 184, 28);
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+}
