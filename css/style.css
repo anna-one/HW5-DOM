@@ -2,17 +2,27 @@ body{
     
     font-family: sans-serif;
     background: rgb(107, 160, 107);
+}
+
+.screen{
+    width: 100%;
+    height: auto;
 
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
-.form {
+.block{
+    width: 300px;
+
     margin-top: 325px;
     background-color: #fff;
     padding: 50px;
+}
 
-
+.form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,6 +32,8 @@ body{
     padding: 14px;
     min-width: 300px;
 
+    border: none;
+    background: rgb(231, 231, 231);
 }
 
 .form-password{
@@ -30,6 +42,9 @@ body{
 
     margin-top: 12px;
     margin-bottom: 12px;
+
+    border: none;
+    background: rgb(231, 231, 231);
 }
 
 .form-button{
@@ -40,4 +55,30 @@ body{
     color: #fff;
     text-transform: uppercase;
     border: none;
+}
+
+.link{
+    margin-top: 15px;
+}
+
+.text{
+    font-size: 16px;
+    color: grey;
+}
+
+.buttonText{
+    border: none;
+    background: none;
+
+    color: rgb(40, 150, 40);
+
+}
+
+.infoUser {
+    
+    margin-top: 20px;
+
+    font-size: 36px;
+    color: #fff;
+
 }
